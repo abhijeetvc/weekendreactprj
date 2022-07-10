@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Demo from './Demo';
+import Auto from './Auto'
 
+import StateDemo from './StateDemo';
+import StateDemoClass from './StateDemoClass';
+import InputRead from './InputRead';
+
+const message="React Demo!!!"
+
+const person={
+  name:'John',
+  city:'Pune'
+}
+
+// Where to render?
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// What has to be rendered?
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+     {/* <h1>Hello React</h1> 
+     <p>This is react project!!!</p>
+     <p>Message : {message}</p>
+     <p>Name : {person.name}</p>
+     <p>City : {person.city}</p> */}
+     <InputRead/>
+  </div>
+
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

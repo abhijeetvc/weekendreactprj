@@ -6,6 +6,9 @@ import Auto from './Auto'
 import StateDemo from './StateDemo';
 import StateDemoClass from './StateDemoClass';
 import InputRead from './InputRead';
+import PropsDemo from './PropsDemo';
+import PropsList from './PropsList';
+import LifeCycleMethdos from './LifeCycleMethods';
 
 const message="React Demo!!!"
 
@@ -25,7 +28,7 @@ root.render(
      <p>Message : {message}</p>
      <p>Name : {person.name}</p>
      <p>City : {person.city}</p> */}
-     <InputRead/>
+     <LifeCycleMethdos/>
   </div>
 
 );

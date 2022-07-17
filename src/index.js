@@ -9,6 +9,7 @@ import InputRead from './InputRead';
 import PropsDemo from './PropsDemo';
 import PropsList from './PropsList';
 import LifeCycleMethdos from './LifeCycleMethods';
+import UseEffectDemo from './UseEffectDemo';
 
 const message="React Demo!!!"
 
@@ -28,7 +29,7 @@ root.render(
      <p>Message : {message}</p>
      <p>Name : {person.name}</p>
      <p>City : {person.city}</p> */}
-     <LifeCycleMethdos/>
+     <UseEffectDemo/>
   </div>
 
 );

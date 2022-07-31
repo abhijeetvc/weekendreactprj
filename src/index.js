@@ -1,15 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Demo from './Demo';
-import Auto from './Auto'
 
-import StateDemo from './StateDemo';
-import StateDemoClass from './StateDemoClass';
-import InputRead from './InputRead';
-import PropsDemo from './PropsDemo';
-import PropsList from './PropsList';
-import LifeCycleMethdos from './LifeCycleMethods';
-import UseEffectDemo from './UseEffectDemo';
+import App from './App';
+import UseContextDemo from './UseContextDemo';
 
 const message="React Demo!!!"
 
@@ -29,7 +22,8 @@ root.render(
      <p>Message : {message}</p>
      <p>Name : {person.name}</p>
      <p>City : {person.city}</p> */}
-     <UseEffectDemo/>
+     <UseContextDemo/>
+     {/* <h1>Hiiiiii</h1> */}
   </div>
 
 );

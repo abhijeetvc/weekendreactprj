@@ -22,7 +22,7 @@ root.render(
      <p>Message : {message}</p>
      <p>Name : {person.name}</p>
      <p>City : {person.city}</p> */}
-     <UseContextDemo/>
+     <App/>
      {/* <h1>Hiiiiii</h1> */}
   </div>
 

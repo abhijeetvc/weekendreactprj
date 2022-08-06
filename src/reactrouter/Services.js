@@ -16,3 +16,8 @@ function Services(){
 }
 
 export default Services
+
+// Information Sharing between components
+// a) Props
+// b) Context API
+// c) Routing

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import UseContextDemo from './UseContextDemo';
+import UseReducerDemo from './UseReducerDemo';
 
 const message="React Demo!!!"
 
@@ -22,7 +23,7 @@ root.render(
      <p>Message : {message}</p>
      <p>Name : {person.name}</p>
      <p>City : {person.city}</p> */}
-     <App/>
+     <UseReducerDemo/>
      {/* <h1>Hiiiiii</h1> */}
   </div>
 
